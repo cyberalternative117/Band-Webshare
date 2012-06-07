@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^webshare.band.geekoes.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www.webshare.band.geekoes.com$
+RewriteRule ^/?$ "http\:\/\/www\.geekoes\.com\/band_webshare" [R=301,L]
+

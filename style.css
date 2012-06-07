@@ -1,0 +1,96 @@
+/*copyright by kitgraphiquegratuit.org*/
+body, html   {background:url(images/fond.jpg);margin:0;padding:0;font-family:Verdana, Arial, Helvetica, sans-serif;text-align:center;color:#FFF;background-attachment: fixed;font-size:12px} 	  
+#conteneur        	{width:1000px;text-align:center;margin:0 auto}	
+#contenu			{background: url(images/conteneur.png) repeat-y;text-align:left}	
+#header	            {background: url(images/header.png) no-repeat;height:200px ;width:1000px;}	
+#left               {float:left;width: 194px;text-align:center;padding:0 0 0 75px;}
+#right              {width:660px;margin:0 0 0 280px;color:#3b3b3b;}  
+#pied               {background: url(images/pied.png) repeat-x;clear: both;height:44px}	 
+
+/*Bouton*/
+#bouton1            {float: left ;background:url(images/bouton1.png);width:46px;height:46px;margin:100px 0 0 90px;padding:0} 
+#bouton1:hover      {background:url(images/bouton1_hover.png);width:46px;height:46px;}  
+#bouton2            {float: left ;background:url(images/bouton2.png);width:46px;height:46px;margin:100px 0 0 12px;padding:0} 
+#bouton2:hover      {background:url(images/bouton2_hover.png);width:46px;height:46px;}  
+#bouton3            {float: left ;background:url(images/bouton3.png);width:46px;height:46px;margin:100px 0 0 11px;padding:0} 
+#bouton3:hover      {background:url(images/bouton3_hover.png);width:46px;height:46px;}
+#texte 				{float:left;padding:0;margin:35px 0 0 20px;color:#fff;width:310px;font-size:12px;font-weight:bold;line-height:22px;text-align:left}	  
+
+/*COpyright*/
+.copyright          {color:#fff;padding:16px 0 0 0;font-weight:bold;font-size:10px}   
+.copyright a        {color:#fff;text-decoration: none;outline:none;font-weight:bold;font-size:10px}
+.copyright a:hover  {color:#3b3b3b} 
+
+/*Cadre News*/
+.contenu_haut       {width:669px;height:26px;background: url(images/contenu_haut.jpg) no-repeat bottom;color:#fff;padding:17px 0 0 0;font-size:10px;font-weight:bold;text-align:center }		  
+.contenu_fond       {width:624px;background: url(images/contenu_fond.jpg) top;padding:0 20px 0 25px;overflow:auto;font-size:11px;}
+.contenu_bas        {width:669px;height:30px;background: url(images/contenu_bas.jpg) no-repeat top;}	
+
+/*Menu*/
+.menu_haut			{width:194px;height:21px;background: url(images/menu_haut.jpg) no-repeat top;color:#fff;padding:17px 0 0 0;font-size:12px;font-weight:bold}
+.menu_fond			{width:194px;background: url(images/menu_fond.jpg);}  
+.menu_fond img		{margin:3px 0 0 0}
+.menu_bas			{width:194px;height:25px;background: url(images/menu_bas.jpg) no-repeat top;}	 
+ul                  {width:160px;text-decoration: none;list-style: none;margin:0 auto;padding:0;padding-top:5px;text-align:left}
+ul li 				{padding-bottom:5px;}
+ul li a             {display: block;color: #3b3b3b;text-decoration: none;outline:none;height:37px;line-height:37px;background: url(images/dossier.png) no-repeat 3px;width:160px;padding:0 0 0 40px;font-size:9px;font-weight:bold} 
+ul li a:hover       {background: url(images/dossierOn.png) no-repeat 3px;color:#141414}	
+	 
+/*class générique*/
+a                   {color:#141414;text-decoration:none;outline:none;font-weight:bold}	 
+a:hover             {color:#525252}	
+Span		        {color:#141414;font-size:14px;font-weight:bold}	
+img, p, h1, h2, h3, h4, h5, h6, Span {border:0;margin:0;padding:0} 
+.clear             {clear: both;visibility: hidden;}
+.myLi{ margin-left: 20px;display: block;color: #3b3b3b;text-decoration: none;outline:none;height:37px;line-height:37px;background: url(images/dossier.png) no-repeat 3px;width:160px;} 
+.myLi p
+{
+	vertical-align:top;
+	padding:0 0 0 20px;
+	font-size:9px;font-weight:bold;
+}
+
+
+/*AJOUTS*/
+
+.report
+{
+	width:625px;
+	margin-left:5px;
+	clear:both;
+}
+
+.report p,h1,h2,h3,h4,h5,h6,adress
+{
+	margin-left:10px;
+	width:580px;
+}
+
+.report_texte
+{
+	margin-left:10px;
+	width:570px;
+}
+
+
+
+.report_haut
+{
+	background-image:url('./images/report_haut.png');
+	height:11px;
+	width:inherit;
+}
+
+.report_content
+{
+	width:inherit;
+	background-image:url('./images/report_content.png');
+	background-repeat:repeat-y;
+}
+
+.report_bas
+{
+	background-image:url('./images/report_bas.png');
+	height:18px;
+	width:inherit;
+}
